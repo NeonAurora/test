@@ -6,7 +6,7 @@ button.addEventListener("mousedown", function () {
   timeoutId = setTimeout(function () {
     button.classList.add("long-press");
 
-    alert("Long click detected!");
+    alert("meh detected!");
   }, 1000); // wait for 1 second to detect long press
 });
 
